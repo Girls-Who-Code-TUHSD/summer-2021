@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none;
+  margin: -10;
+  padding: 10;
+  overflow: hidden;
+  background-color: 56BCA8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+  background-color: 12284F;
+}
+
+header{
+  padding: 60px;
+  margin: -10px;
+  color: white;
+  background-image: url('header01.jpg');
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: center
+}
+
+main{
+  color: 12284F;
+  font-family: 'Cabin', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+body {
+  background-color: FAF7ED;
+}
