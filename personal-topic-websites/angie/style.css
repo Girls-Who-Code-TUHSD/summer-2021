@@ -1,0 +1,70 @@
+body 
+{
+  background-color: aliceblue;
+  font-family: 'Uchen', serif;
+  
+}
+
+#navbar
+{
+  list-style-type: none;
+  
+  padding: 10px;
+  border: 3px solid #483D8B;
+}
+
+.nav
+{
+  display: inline;
+}
+
+.nav a
+{
+  font-size: 21px;
+  text-decoration: none;
+  color: #483D8B;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav a hover
+{
+  background-color: #483D8B;
+  color:white;
+}
+
+img
+{
+  border: 3px solid #483D8B;
+}
+
+.heading
+{
+  color: #483D8B;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 23px;
+}
+
+hr
+{
+  border: 3px solid #483D8B;
+}
+
+.events
+{
+  padding: 5px;
+  font-size: 17px;
+}
+
+.dates
+{
+  font-size:19px;
+  color:#483D8B;
+  font-weight:bold;
+}
+
+.pics
+{
+  text-align: center;
+}
