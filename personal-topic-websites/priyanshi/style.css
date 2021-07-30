@@ -1,0 +1,118 @@
+body{
+  background: #FBE2FB;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 50;
+  text-shadow: 2px 2px #D2BCE9;
+}
+
+
+.column {
+
+float: left;
+  padding: 5px;
+  
+}
+.column1 {
+  
+  float: left;
+  padding: 5px;
+  
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+  
+  h2{
+    color: Purple;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30;
+  }
+
+
+p{
+font-family: 'Abhaya Libre', serif;
+
+}
+
+.p2{
+font-family: 'Abhaya Libre', serif;
+  text-align: justify;
+  margin-right:300px;
+}
+
+li{
+  font-size:23;
+  font-family:  'Satisfy', cursive;
+  color: #9D589D;
+}
+
+   .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 60%;
+        order: 2;
+      
+      }
+      .text {
+        color: #CD5C5C;
+        padding-right: 10px;
+ font-family: 'Abhaya Libre', serif;
+       font-size: 17;
+      }
+      
+       .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image2 {
+        flex-basis: 60%;
+        order: 2;
+      
+      }
+      .text2 {
+        color: #CD5C5C;
+        padding-right: 10px;
+ font-family: 'Abhaya Libre', serif;
+       font-size: 17;
+      }
+      
+        .container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image3 {
+        flex-basis: 60%;
+        order: 2;
+      
+      }
+      .text3 {
+        color: #CD5C5C;
+        padding-right: 10px;
+ font-family: 'Abhaya Libre', serif;
+       font-size: 17;
+      }
+      
+.p4{
+    color: #CD5C5C;
+
+}
