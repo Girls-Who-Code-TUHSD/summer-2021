@@ -1,0 +1,80 @@
+body {
+  background-color: #809848;
+  font-size:15;
+  font-weight:300;
+  color:#442220 ;
+  font-family: 'Concert One', cursive;
+}
+h1{
+  font-size: 40;
+  font-weight:400;
+  color:#1C0E0D;
+font-family: 'Concert One', cursive;
+  text-align: center;
+  
+}
+h2{
+  font-size:22;
+  color: #8FC93A;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+.subtitle{
+text-align:center;
+}
+.flex-item{
+  flex-basis:100%;
+  margin:1%;
+}
+
+.face-img{
+  display: block;
+}
+
+.fav-img{
+  width:100%;
+}
+  
+a{text-decoration:none;
+color: #442220;
+}
+
+ul.menu{
+  background-color: #8FC93A;
+  overflow: hidden;
+  padding:5px;
+  color: #DB162F;
+}
+
+li.menu-items{
+  display: inline;
+  float: left;
+}
+li.menu-items a{
+  font-size:18px;
+  padding:14px;
+  color: #442220;
+}
+li.menu-items a:hover{
+  background-color:#442220;
+  color: #FFF8F0;
+}
+
+.headingfortopics{
+  font-size:22;
+  font-weight: 700;
+}
+
+@media screen and (maxwidth: 850px){
+  .flex-contaier{
+    flex-wrap:wrap;
+  }
+  
+  header-main{
+    
+  }
+  }

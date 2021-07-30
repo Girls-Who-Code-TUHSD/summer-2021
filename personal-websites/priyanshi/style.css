@@ -1,0 +1,46 @@
+body {
+  background-color: lavender;
+}
+
+h1 {
+  text-shadow: 2px 2px white;
+  color: purple;
+  text-align: center;
+  font-family: Garamond;
+}
+
+h2 {
+  text-shadow: 2px 2px #D2BCE9;
+  font-family: Monospace;
+  color: #963FF4 ;
+  font-size: 24;
+}
+
+p {
+  
+  font-family: Helvetica;
+  
+}
+
+li {
+   font-family: Verdana;
+     text-shadow: 2px 2px #D2BCE9;
+
+}
+
+.subtitle{
+  font-family: Helvetica;
+  text-align:center;
+  color: purple;
+}
+
+.flexcontainer{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap
+}
+
+.flexitem{
+  flex-basis: 100%;
+  margin: 1%;
+}
