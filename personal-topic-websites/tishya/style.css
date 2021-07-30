@@ -1,61 +1,71 @@
 body {
-    background-color: black;
-    font-size: 16;
-    font-weight: 400;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  #menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-  }
-  
-  #menu-items{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
-  
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #title {
-    font-size: 50;
-    font-weight: 500;
-    color: cyan;
-    font-family: 'Ubuntu Mono', monospace;
-    text-align: center;
-  }
-  
-  .headingfortopics {
-    font-size: 20;
-    font-weight: 700;
-    color: chocolate;
-    font-family: 'Cinzel Decorative', cursive;
-  }
-  
-  hr{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 3px solid white;
-  }
-  
-  a{
-    color:cyan;
-  }
-  
-  
+  background-color: black;
+  font-size: 16;
+  font-weight: 400;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li.menu-items{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li.menu-items a{
+  font-size:20px;
+  padding:20px;
+  color: white;
+}
+
+li.menu-items a:hover{
+  background-color: #0D38D3;
+  color: cyan;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  font-size: 50;
+  font-weight: 500;
+  color: cyan;
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+}
+
+.headingfortopics {
+  font-size: 20;
+  font-weight: 700;
+  color: chocolate;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+hr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid white;
+}
+
+a{
+  color:cyan;
+}
+
