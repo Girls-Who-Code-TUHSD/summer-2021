@@ -78,3 +78,18 @@ hr{
   margin-right: auto;
   border-top: 3px solid sienna;
 }
+
+@media screen and (max-width: 850px){
+  body{
+    background-color:pink;
+  }
+  
+  .flex-container{
+    flex-wrap:wrap;
+  }
+  
+  header, main{
+    padding-left:50px;
+    padding-right:50px;
+  }
+}
