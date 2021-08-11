@@ -35,16 +35,3 @@ header{
   font-size: 30px;
   text-align: center
 }
-
-main{
-  color: 12284F;
-  font-family: 'Cabin', sans-serif;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
-body {
-  background-color: FAF7ED;
-}
